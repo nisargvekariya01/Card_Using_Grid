@@ -15,7 +15,7 @@ Welcome to the Testimonial Card Interface! This repository contains a frontend-o
 - **Font: Barlow Semi Condensed** - For a sleek typography experience
 
 ## 🌐 Live Demo
-Check out the live version of the project here: [Live Demo](https://yourusername.github.io/Testimonial-Card-Interface/)
+Check out the live version of the project here: [Live Demo](https://card-using-grid-nisarg07.netlify.app/)
 
 ## 📸 Desktop Screenshot
 <img src="preview_desktop.png" alt="Desktop Testimonial Cards" width=750px>
@@ -51,4 +51,4 @@ Contributions are welcome! 😄 Please follow these steps:
 - Inspired by Frontend Mentor challenges
 - Thanks to the open-source community! 🌍
 
-## Made with ❤️ by [Nisarg Vekariya]()
+## Made with ❤️ by [Nisarg Vekariya](https://github.com/nisargvekariya01)
