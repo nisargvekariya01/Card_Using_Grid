@@ -31,11 +31,11 @@ Check out the live version of the project here: [Live Demo](https://yourusername
 ### Installation
 1. 📥 Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Testimonial-Card-Interface.git
+   git clone https://github.com/nisargvekariya01/Card_Using_Grid
    ```
 2. 📂 Navigate to the project directory:
    ```bash
-   cd Testimonial-Card-Interface
+   cd Card_Using_Grid
    ```
 3. 🌐 Open `index.html` in your web browser to view the interface.
 
