@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(214, 17%, 92%);
+  background-color: white;
 }
 
 .cards {
@@ -48,7 +48,7 @@ body {
 .card-3 {
   grid-row: 2;
   grid-column: 1;
-  background-color: white;
+  background-color: hsl(255, 100%, 98%);
 }
 
 .card-4 {
@@ -60,7 +60,7 @@ body {
 .card-5 {
   grid-row: 1 / span 2;
   grid-column: 4;
-  background-color: white;
+  background-color: hsl(255, 100%, 98%);
 }
 
 .name {
