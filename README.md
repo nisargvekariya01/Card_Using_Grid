@@ -1,4 +1,4 @@
-# 🎉 Testimonial Card Interface 🎉
+# 🎉 Cards Using Grid 🎉
 
 ## 📋 Overview
 Welcome to the Testimonial Card Interface! This repository contains a frontend-only project featuring five stylish testimonial cards. Built with HTML and CSS, it offers a clean, modern design with a responsive grid layout.
