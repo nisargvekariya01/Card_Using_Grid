@@ -1,0 +1,202 @@
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(214, 17%, 92%);
+}
+
+.cards {
+  display: grid;
+  max-width: 1000px;
+  grid-template-rows: 2;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 36px 36px 25px hsl(0, 0%, 81%);
+}
+
+.card-1 {
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 15%;
+  background-size: 19.3%;
+  grid-row: 1;
+  grid-column: 1 / span 2;
+}
+
+.card-2 {
+  background-color: hsl(217, 19%, 35%);
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.card-3 {
+  grid-row: 2;
+  grid-column: 1;
+  background-color: white;
+}
+
+.card-4 {
+  grid-row: 2;
+  grid-column: 2 / span 2;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.card-5 {
+  grid-row: 1 / span 2;
+  grid-column: 4;
+  background-color: white;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.tit {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-top: 16px;
+}
+
+.info {
+  margin-top: 16px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+.intro-img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.intro-self {
+  margin-left: 13px;
+}
+
+/* card-1 */
+.img-1 {
+  border: 2px solid hsl(264, 82%, 80%);
+}
+
+.name-1 {
+  color: hsl(264, 82%, 80%);
+}
+
+.verified-1 {
+  color: hsl(264, 82%, 80%);
+}
+
+.tit-1 {
+  color: hsl(260, 100%, 95%);
+}
+
+.info-1 {
+  color: hsl(264, 82%, 80%);
+}
+
+/* card-2 */
+.name-2 {
+  color: hsl(0, 0%, 81%);
+}
+
+.verified-2 {
+  color: hsl(0, 0%, 81%);
+}
+
+.tit-2 {
+  color: hsl(214, 17%, 92%);
+}
+
+.info-2 {
+  color: hsl(0, 0%, 81%);
+}
+
+/* card-3 */
+.name-3 {
+  color: hsl(224, 10%, 45%);
+}
+
+.verified-3 {
+  color: hsl(224, 10%, 45%);
+}
+
+.tit-3 {
+  color: hsl(217, 19%, 35%);
+}
+
+.info-3 {
+  color: hsl(224, 10%, 45%);
+}
+
+/* card-4 */
+.img-4 {
+  border: 2px solid hsl(263, 55%, 52%);
+}
+
+.name-4 {
+  color: hsl(214, 17%, 92%);
+}
+
+.verified-4 {
+  color: hsl(214, 17%, 92%);
+}
+
+.tit-4 {
+  color: hsl(214, 17%, 92%);
+}
+
+.info-4 {
+  color: hsl(214, 17%, 92%);
+}
+
+/* card-5 */
+.name-5 {
+  color: hsl(224, 10%, 45%);
+}
+
+.verified-5 {
+  color: hsl(224, 10%, 45%);
+}
+
+.tit-5 {
+  color: hsl(217, 19%, 35%);
+}
+
+.info-5 {
+  color: hsl(224, 10%, 45%);
+}
+
+@media (max-width: 884px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 270px;
+    box-shadow: none;
+  }
+
+  .card-1 {
+    background-image: none;
+  }
+}
